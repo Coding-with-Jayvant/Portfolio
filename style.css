@@ -80,7 +80,6 @@ section{
 }
 
 header{
-    padding-top: 20px;
     position: fixed;
     top:0; left:0;
     z-index: 1000;
@@ -99,14 +98,13 @@ header .user img{
     width:17rem;
     border-radius: 50%;
     object-fit: cover;
-    margin-bottom: -2rem;
+    margin-bottom: 1rem;
     border:.7rem solid var(--yellow);
 }
 
 header .user .name{
     font-size: 3.5rem;
     color:#fff;
-    padding-top: 30px;
 }
 
 header .user .post{
@@ -287,8 +285,8 @@ header .navbar ul li a:hover{
 }
 
 .portfolio .box-container .box{
-    height: 30rem;
-    width:40rem;
+    height: 20rem;
+    width:26rem;
     border-radius: 1rem;
     margin:2rem;
     overflow: hidden;
@@ -304,55 +302,6 @@ header .navbar ul li a:hover{
 .portfolio .box-container .box:hover img{
     transform: scale(1.2);
 }
-
-.portfolio .box-container .box h1{
-            font-size: 2.3rem;
-            color: rgb(199, 195, 195);
-}
-
-
-.portfolio .box-container .box p{
-    font-size: 1.5rem;
-    color: rgb(199, 195, 195);
-}
-
-
-/* ######################### */
-
-
-
-.certification .box-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding:2rem 0;
-}
-
-.certification .box-container .box{
-    height: 30rem;
-    width:40rem;
-    border-radius: 1rem;
-    margin:2rem;
-    overflow: hidden;
-    cursor: pointer;
-}
-
-.certification .box-container .box img{
-    height:100%;
-    width:100%;
-    object-fit: cover;
-}
-/* 
-.certification .box-container .box:hover img{
-    transform: scale(1.2);
-} */
-
-
-
-/* ##################### */
-
-
 
 .contact .row{
     display: flex;
@@ -422,32 +371,11 @@ header .navbar ul li a:hover{
 }
 
 
-/* 
-.clicklogo #c1 i{
-    position: absolute;
-    font-size: 25px;
-    margin-top: 40px;
-    margin-left: 85px;
-    color: blue;
 
-}
 
-.clicklogo #c2 i{
-    position: absolute;
-    font-size: 30px;
-    margin-top: 38px;
-    margin-left: 180px;
-    color: #3f729b;
-    color: #DD2A7B;
-        }
 
-.clicklogo #c3 i{
-    position: absolute;
-    font-size: 30px;
-    margin-top: 38px;
-    margin-left: 281px;
-    color: lightblue;
-        } */
+
+
 
 
 
@@ -521,10 +449,6 @@ header .navbar ul li a:hover{
     }
 
     .portfolio .box-container .box{
-        width:100%;
-    }
-
-    .certification .box-container .box{
         width:100%;
     }
 
